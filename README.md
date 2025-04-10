@@ -1,37 +1,45 @@
-# Hospital-Management-System-HMS-
+
 🏥 Hospital Management System (Java Console App)
-
-📋 Description
-This is a simple console-based Hospital Management System built using Java. It demonstrates basic Object-Oriented Programming (OOP) concepts like:
-1.Abstraction (Person as an abstract class)
-2.Inheritance (Patient extends Person)
-3.Encapsulation (private fields with public getters/setters)
-4.Polymorphism (method overriding and overloading)
-5.The system allows hospital staff to add, view, search, and delete patient records.
-
-🛠 Features
-1.Add new patients with ID, name, age, and disease information.
-2.View a list of all patients.
-3.Search for a patient by ID.
-4.Delete a patient record by ID.
-5.Console-based interactive menu.
-
+📋 Overview
+This is a simple console-based Hospital Management System developed in Java. The application demonstrates core Object-Oriented Programming (OOP) concepts and allows hospital staff to efficiently manage patient records.
+________________________________________
+💡 OOP Concepts Implemented
+•	Abstraction: Person is an abstract class.
+•	Inheritance: Patient class extends Person.
+•	Encapsulation: Private fields with public getters and setters.
+•	Polymorphism: Method overloading and overriding are used.
+________________________________________
+🛠️ Features
+•	➕ Add new patients with ID, name, age, and disease.
+•	📃 View a list of all patients.
+•	🔍 Search for a patient by ID.
+•	❌ Delete a patient record by ID.
+•	🧭 Interactive, console-based menu system.
+________________________________________
 🧱 Code Structure
-1.Person (abstract class): General blueprint for a person with name and age.
-2.Patient (class): Extends Person, includes id and disease attributes.
-3.HospitalManagementSystem (main class): Handles user interaction and operations on the patient list.
-
-▶ How to Run
-Step 01: Make sure you have Java installed (JDK 8+).
-Step 02: Copy all the code into a file named HospitalManagementSystem.java.
-Step 03: Compile the code:
-Step 04: Samole outpput:
-![Screenshot 2025-04-10 164714](https://github.com/user-attachments/assets/19b1fa26-0b50-4396-b13e-c422bbfc1379)
-
-📚 Concepts Used
-ArrayList for dynamic storage of patient records.
-Scanner for input handling.
-Method Overloading and Overriding to demonstrate polymorphism.
-
-📌 Author
+•	Person (abstract class):
+Blueprint for a person with name and age fields.
+•	Patient (class):
+Inherits from Person, includes id and disease attributes.
+•	HospitalManagementSystem (main class):
+Manages the user interface and operations like add, view, search, and delete.
+________________________________________
+▶️ How to Run
+1.	✅ Ensure Java (JDK 8 or higher) is installed.
+2.	📄 Copy all code into a file named HospitalManagementSystem.java.
+3.	🧑💻 Compile the code:
+4.	javac HospitalManagementSystem.java
+5.	▶ Run the program:
+6.	java HospitalManagementSystem
+7.	🖥️ Sample Output:
+8.	![Screenshot 2025-04-10 164714](https://github.com/user-attachments/assets/b7455314-164c-4c85-8208-75b4a232895c)
+________________________________________
+📚 Concepts & Tools Used
+•	ArrayList for managing patient records dynamically.
+•	Scanner class for input handling.
+•	Demonstrates method overloading and overriding for polymorphism.
+________________________________________
+👤 Author
 S.M. ALI AKBAR KHALED
+Java Developer | Tech Enthusiast
+
