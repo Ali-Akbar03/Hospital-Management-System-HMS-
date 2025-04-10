@@ -21,7 +21,7 @@ This is a simple console-based Hospital Management System built using Java. It d
 2.Patient (class): Extends Person, includes id and disease attributes.
 3.HospitalManagementSystem (main class): Handles user interaction and operations on the patient list.
 
-▶️ How to Run
+▶ How to Run
 Step 01: Make sure you have Java installed (JDK 8+).
 Step 02: Copy all the code into a file named HospitalManagementSystem.java.
 Step 03: Compile the code:
@@ -35,6 +35,3 @@ Method Overloading and Overriding to demonstrate polymorphism.
 
 📌 Author
 S.M. ALI AKBAR KHALED
-
-
-
